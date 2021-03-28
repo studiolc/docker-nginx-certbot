@@ -1,4 +1,4 @@
-FROM nginx
+FROM nginx:1.19
 LABEL maintainer="Elliot Saba <staticfloat@gmail.com>, Valder Gallo <valergallo@gmail.com>, Bruno Zell <bruno.zzell@gmail.com>"
 
 VOLUME /etc/letsencrypt
